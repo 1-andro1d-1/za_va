@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SubScript</title>
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo"><img src="{{ url_for('static',filename='img/logo1.png') }}" height="50px"></a> 
+            <ul>
+                <li><a href="/about">About</a></li>
+                <li><a href="#">New</a></li>                                                                                                                                                                                                            
+                <li><a href="courses">Courses</a></li>
+                <li><a href="profile">{{title}}</a></li>
+            </ul>
+        </header>
+        <main>
+            <div class="gradient">
+                <div class="main-nad">
+                    <p align="center">Your next<br>educatiom<br>experience </p>
+                    <div class="console" wight="30%">
+                        <div class="up_console">
+                            <h1>_[SubScript@]_@$</h1>
+                        </div>
+                        <div class="main_console">
+                            <h1 class="text">_[SubScript@]_@$<span class="cursor"></span></h1>
+                            <h3 class="text2">Our courses:</h3>
+                            <div class="box">
+                                <ul>
+                                    <li class="console-li"><img src="https://readme-typing-svg.herokuapp.com?color=909090&lines=frontend+%23%23%23%23%23%23%23%23%23%23+10"></li>
+                                    <li class="console-li"><img src="https://readme-typing-svg.herokuapp.com?color=909090&lines=Unreal Engine 4+%23%23%23%23%23%23%23%23+10"></li>
+                                    <li class="console-li"><img src="https://readme-typing-svg.herokuapp.com?color=909090&lines=Unity+%23%23%23%23%23%23%23%23+10"></li>
+                                    <li class="console-li"><img src="https://readme-typing-svg.herokuapp.com?color=909090&lines=Java+%23%23%23%23%23%23%23%23%23+10"></li>
+                                    <li class="console-li"><img src="https://readme-typing-svg.herokuapp.com?color=909090&lines=Ui/Ux+%23%23%23%23%23%23%23%23%23+10"></li>
+                                </ul>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+                <p align="center" class="Sign-in2"><a href="profile" class="Sign-in">Continue lerning</a></p>
+            </div>
+            <div class="popular">
+                <ul>
+                    <li><a><div class="w">
+                            <div class="d"><p align="center">python</p></div>
+                            <div class="f">
+                                <img src="{{ url_for('static',filename='img/3d-fluency-python.png')}}" alt="py" width="100px" >
+                                <p align="center">TRY</p>
+                            </div>
+                        </div></a>
+                    </li>
+                    <li>
+                        <a><div class="w">
+                            <div class="d"><p align="center">python</p></div>
+                            <div class="f">
+                                <img src="{{ url_for('static',filename='img/Unreal_Engine_icon-icons.com_56587.png')}}" alt="py" width="100px">
+                                <p align="center">TRY</p>
+                            </div>
+                        </div></a>
+                    </li>
+                    <li>
+                        <a><div class="w">
+                            <div class="d"><p align="center">python</p></div>
+                            <div class="f">
+                                <img src="{{ url_for('static',filename='img/java_original_logo_icon_146458.png')}}" alt="py" width="100px">
+                                <p align="center">TRY</p>
+                            </div>
+                        </div></a>
+                    </li>
+                    <li>
+                        <a><div class="w">
+                            <div class="d"><p align="center">python</p></div>
+                            <div class="f">
+                                <img src="{{ url_for('static',filename='img/icons8-c++-240.png')}}" alt="py" width="100px">
+                                <p align="center">TRY</p>
+                            </div>
+                        </div></a>
+                    </li>
+                    <li>
+                        <a><div class="w">
+                            <div class="d"><p align="center">python</p></div>
+                            <div class="f">
+                                <img src="{{ url_for('static',filename='img/Unity_icon-icons.com_56592.png')}}" alt="py" width="100px">
+                                <p align="center">TRY</p>
+                            </div>
+                        </div></a>
+                    </li>
+                </ul>
+            </div>
+            
+        </main>
+    </body>
+</html>

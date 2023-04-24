@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SubScript</title>
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style2.css') }}">
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo"><img src="{{ url_for('static',filename='img/logo1.png') }}" height="50px"></a>  
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="/login">Log in</a></li>
+            </ul>
+        </header>
+        <main>
+            <form method="post">
+            <div class="login-window">
+                <div class="lg-w">
+                    <div class="login-window-up">
+                        <h1 align="center">LOG IN</h1>
+                    </div>
+                    <div class="login-window-main">
+                        <p>Email</p>
+                        <input type="email" name="email" placeholder="Enter your email">
+                        <p>Password</p>
+                        <input type="password" name="password" placeholder="Enter your password">
+                        <p class="register"><a href="/register">Register</a></p>
+                        <div class="bt1"><button class="Login_button" type="submit" name="submit">Log in</button></div>
+                    </div>
+                </div>
+            </div>
+            </form>
+        </main>
+    </body>
+</html>

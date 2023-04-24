@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    min-height: 100vh;
+    background-color: black;
+    background: linear-gradient(149deg, rgba(24,187,156,1) 0%, rgba(106,57,175,1) 42%, rgba(187,24,148,1) 72%, rgba(115,53,134,1) 100%);
+    animation: gradient 10s infinite linear;
+    box-shadow: 0 0 10px rgba(1,0,0,1);
+    background-size: 400%;
+}
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+section{
+    margin-bottom: 30px;
+}
+
+header .logo
+{
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header ul li
+{
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a
+{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 25px;
+
+}
+
+header ul li a:hover
+{
+    background: #fff;
+    color: #2b1055;
+
+}
+
+.gradient {
+    color: #fff;
+    font-weight: 900;
+    font-size: 5em;
+    padding-top: 130px;
+  }
+  @keyframes gradient {
+    0% {
+      background-position: 80% 0%;
+    }
+    50% {
+      background-position: 20% 100%;
+    }
+    100% {
+      background-position: 80% 0%;
+    }
+  }
+
+
+.login-window
+{
+
+    display: flex;
+    padding-top: 300px;
+    justify-content: center;
+    
+}
+.lg-w
+{
+    display: block;
+    background-color: rgba(1,0,0, 0.3);
+    border-radius: 30px;
+}
+.login-window-up
+{
+    padding: 10px;
+    background-color: rgba(1,0,0, 0.3);
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    color: #fff;
+    font-weight: 900;
+}
+.login-window-main
+{   
+    color: #fff;
+    font-size: 25pt;
+    padding: 30px;
+    font-weight: 900;
+    padding-bottom: 60px;
+}
+
+input
+{
+    height: 40px;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 20pt;
+}
+
+input::placeholder {
+    font-size: 20pt;
+}
+
+.register a
+{
+    text-decoration: none;
+    color: #8107e6;
+    font-size: 18pt;
+}
+.Login_button
+{
+    font-size: 18pt;
+    padding: 5px;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 800;
+    border-color: rgba(0, 0, 0, 0);
+}
+.bt1
+{
+    display: flex;
+    justify-content: center;
+}
+.Login_button:hover
+{
+    background-color: rgb(218, 216, 216);
+}
